@@ -9,11 +9,11 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sai.weblocation</groupId>
-	<artifactId>weblocation</artifactId>
+	<groupId>com.apepdcl.fluentgrid</groupId>
+	<artifactId>fluentgrid</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>weblocation</name>
-	<description>Spring Boot WebLocation Project</description>
+	<name>fluentgrid</name>
+	<description>Spring Boot - Authentication, Authorization, Security</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -28,7 +28,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
