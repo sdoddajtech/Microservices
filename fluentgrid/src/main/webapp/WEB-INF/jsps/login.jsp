@@ -18,7 +18,9 @@
 
     <div class="container">
       <form method="POST" action="${contextPath}/login" class="form-signin">
-        <h2 class="form-heading">Log in</h2>
+      <h2 class="text-center">Create an account</h2>
+     
+        <h3 class="form-heading">APEPDCL-Log in</h3>
 
         <div class="form-group ${error != null ? 'has-error' : ''}">
             <span>${message}</span>
